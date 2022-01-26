@@ -25,7 +25,7 @@ jobs:
       with:
         name: tuyencaovn/ghaction/gaction
         registry: ghcr.io
-        username: ${{ secrets.TUYENCAO }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        username: ${{ secrets.GH_USERNAME }}
+        password: ${{ secrets.GH_TOKEN }}
         dockerfile: Dockerfile-prod
         tags: latest
