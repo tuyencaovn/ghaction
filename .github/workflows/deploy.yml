@@ -21,7 +21,7 @@ jobs:
       env:
         CI: true
     - name: Publish to Github Packages Registry
-      uses: tuyencaovn/ghaction@master
+      uses: elgohr/Publish-Docker-Github-Action@master
       with:
         name: tuyencaovn/ghaction/gaction
         registry: ghcr.io
