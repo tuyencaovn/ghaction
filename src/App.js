@@ -12,7 +12,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github Action. Go!
+        Github Action. Go with Tuyen!
         </a>
       </header>
     </div>
